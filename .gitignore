@@ -1,9 +1,5 @@
-.vagrant
-/cookbooks
 
-# Bundler
-bin/*
-.bundle/*
-
-.kitchen/
-.kitchen.local.yml
+# Ignorar arquivos do sistema e editores
+.DS_Store
+node_modules
+*.log
